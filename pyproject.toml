@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonproject2"
+version = "0.1.0"
+description = "Some description"
+authors = ["Ivan Neverov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "2.0.0rc6"
+pytest = "8.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
